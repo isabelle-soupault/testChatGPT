@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+    <style>
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      #menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        height: 100px; /* hauteur du menu */
+        padding: 0 20px;
+        background-color: aqua;
+      }
+
+      #menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      #menu li {
+        list-style: none;
+        margin-right: 20px; /* marge entre les éléments */
+        white-space: nowrap; /* empêcher les sauts de ligne dans le texte */
+      }
+
+      #menu a {
+        text-decoration: none;
+        color: #333; /* couleur du texte */
+        font-size: 1.2em; /* taille du texte */
+      }
+
+      body {
+        padding-top: 100px;
+      }
+    </style>
+  </head>
+  <menu id="menu">
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </menu>
+
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a sem nibh.
+      Sed fermentum metus et est ullamcorper, id suscipit ligula suscipit. Nunc
+      rhoncus nisl leo, a commodo dui accumsan a. Curabitur scelerisque libero
+      sed leo lobortis, id interdum risus blandit. Nunc non tellus nec felis
+      vulputate rhoncus ut a lacus. Sed sed hendrerit neque. Pellentesque id
+      consequat nibh. Donec nisi justo, egestas vel hendrerit aliquam, fermentum
+      quis velit. Morbi at ante a mauris accumsan semper ut nec elit. Nulla
+      elementum tempor risus. Donec in eleifend ligula. Nulla imperdiet augue
+      eget arcu eleifend dapibus. Mauris commodo at eros sed mollis. Mauris
+      semper vel nulla a auctor. Morbi nec ligula ipsum. Cras fringilla diam ac
+      tortor ultricies aliquet. Suspendisse porta facilisis lacinia. Quisque
+      euismod urna euismod eros sagittis tempus. Cras condimentum elementum odio
+      vitae euismod. Aenean nibh nulla, fermentum vitae ultrices non, egestas eu
+      odio. Nullam commodo malesuada fermentum. Donec aliquet elit non metus
+      iaculis, non tempus lectus cursus. Vestibulum lacus elit, molestie et
+      consequat eu, ullamcorper quis leo. In diam eros, fringilla sed faucibus
+      vitae, consequat a sapien. Ut et nisl nec velit bibendum congue. Mauris a
+      volutpat diam. Aenean id odio feugiat, iaculis odio vel, vulputate elit.
+      Curabitur suscipit, nunc vitae tristique venenatis, augue mauris euismod
+      odio, in bibendum justo risus sed nunc. Vestibulum a vulputate eros, ac
+      blandit magna. Curabitur tincidunt justo quam, eget tincidunt velit
+      sollicitudin eget. Nullam semper auctor ex, consectetur egestas risus
+      placerat sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+      per inceptos himenaeos. Cras efficitur quam et aliquam pulvinar.
+      Pellentesque sagittis convallis varius. Nam eu blandit lorem. Ut ac lacus
+      non augue finibus porta. Maecenas et diam dapibus, scelerisque urna nec,
+      pharetra urna. Etiam scelerisque quam nec massa congue imperdiet. Nunc
+      dapibus, justo at sollicitudin luctus, erat erat bibendum ipsum, non
+      rhoncus nulla turpis quis ex. Aenean velit lectus, tristique nec iaculis
+      vel, pretium ut lacus. Donec ac tempus odio. Ut vel enim vel eros
+      tincidunt tempus ac dignissim arcu. Morbi sit amet leo vitae erat
+      pellentesque vehicula. Praesent malesuada tincidunt purus, sed congue urna
+      lobortis et. Etiam eget nibh ornare, volutpat urna eget, molestie urna
+    </p>
+    <h1>TITRE 1</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a sem nibh.
+      Sed fermentum metus et est ullamcorper, id suscipit ligula suscipit. Nunc
+      rhoncus nisl leo, a commodo dui accumsan a. Curabitur scelerisque libero
+      sed leo lobortis, id interdum risus blandit. Nunc non tellus nec felis
+      vulputate rhoncus ut a lacus. Sed sed hendrerit neque. Pellentesque id
+      consequat nibh. Donec nisi justo, egestas vel hendrerit aliquam, fermentum
+      quis velit. Morbi at ante a mauris accumsan semper ut nec elit. Nulla
+      elementum tempor risus. Donec in eleifend ligula. Nulla imperdiet augue
+      eget arcu eleifend dapibus. Mauris commodo at eros sed mollis. Mauris
+      semper vel nulla a auctor. Morbi nec ligula ipsum. Cras fringilla diam ac
+      tortor ultricies aliquet. Suspendisse porta facilisis lacinia. Quisque
+      euismod urna euismod eros sagittis tempus. Cras condimentum elementum odio
+      vitae euismod. Aenean nibh nulla, fermentum vitae ultrices non, egestas eu
+      odio. Nullam commodo malesuada fermentum. Donec aliquet elit non metus
+      iaculis, non tempus lectus cursus. Vestibulum lacus elit, molestie et
+      consequat eu, ullamcorper quis leo. In diam eros, fringilla sed faucibus
+      vitae, consequat a sapien. Ut et nisl nec velit bibendum congue. Mauris a
+      volutpat diam. Aenean id odio feugiat, iaculis odio vel, vulputate elit.
+      Curabitur suscipit, nunc vitae tristique venenatis, augue mauris euismod
+      odio, in bibendum justo risus sed nunc. Vestibulum a vulputate eros, ac
+      blandit magna. Curabitur tincidunt justo quam, eget tincidunt velit
+      sollicitudin eget. Nullam semper auctor ex, consectetur egestas risus
+      placerat sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+      per inceptos himenaeos. Cras efficitur quam et aliquam pulvinar.
+      Pellentesque sagittis convallis varius. Nam eu blandit lorem. Ut ac lacus
+      non augue finibus porta. Maecenas et diam dapibus, scelerisque urna nec,
+      pharetra urna. Etiam scelerisque quam nec massa congue imperdiet. Nunc
+      dapibus, justo at sollicitudin luctus, erat erat bibendum ipsum, non
+      rhoncus nulla turpis quis ex. Aenean velit lectus, tristique nec iaculis
+      vel, pretium ut lacus. Donec ac tempus odio. Ut vel enim vel eros
+      tincidunt tempus ac dignissim arcu. Morbi sit amet leo vitae erat
+      pellentesque vehicula. Praesent malesuada tincidunt purus, sed congue urna
+      lobortis et. Etiam eget nibh ornare, volutpat urna eget, molestie urna
+    </p>
+  </body>
+
+  <script>
+    window.onscroll = function () {
+      var navbar = document.getElementById("menu"); // Remplacez "navbar" par l'ID de votre barre de menu
+      if (window.pageYOffset >= navbar.offsetTop) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    };
+
+    window.onscroll = function () {
+      var menu = document.getElementById("menu"); // remplacez "menu" par l'ID de votre menu
+      if (window.pageYOffset > 0) {
+        menu.style.height = "50px"; // remplacez "50px" par la hauteur souhaitée du menu rétréci
+      } else {
+        menu.style.height = "100px"; // remplacez "100px" par la hauteur souhaitée du menu normal
+      }
+    };
+  </script>
+</html>
